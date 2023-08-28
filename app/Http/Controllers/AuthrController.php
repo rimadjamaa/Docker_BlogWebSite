@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class AuthrController extends Controller
 {
-    public function index(Request $request){
+    public function index(){
+
         return view('back.pages.home');
     }
 }
